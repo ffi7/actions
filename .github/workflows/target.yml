@@ -33,6 +33,7 @@ jobs:
           git remote set-url origin $repo
           git config --global user.email ${{ vars.useremail }}
           git config --global user.name ${{ vars.username }}
+          git update-index --chmod=+x fetch.target.sh
           ./fetch.target.sh $link dayx day days
           git add .
           git commit -m "$y $m $d"

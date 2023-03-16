@@ -28,14 +28,12 @@ jobs:
           d: ${{needs.date.outputs.d}}
         run: |
           repo="https://${{ github.actor }}:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}"
-          link="https://${{ env.target }}/$y/$m/$y$m$d.yaml"
+          link="https://${{ vars.target }}/$y/$m/$y$m$d.yaml"
           git clone $repo workspace .
           git remote set-url origin $repo
-          git config --global user.email ${{ env.useremail }}
-          git config --global user.name ${{ env.username }}
-          mv day.yaml days.yaml
-          mv dayx.yaml day.yaml
-          wget $link -O dayx.yaml
+          git config --global user.email ${{ vars.useremail }}
+          git config --global user.name ${{ vars.username }}
+          ./fetch.target.sh $link dayx day days
           git add .
           git commit -m "$y $m $d"
           git push 

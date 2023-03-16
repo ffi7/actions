@@ -9,11 +9,11 @@ jobs:
   date:
     runs-on: ubuntu-latest
     outputs:
-        y: ${{steps.cols.outputs.y}}
-        m: ${{steps.cols.outputs.m}}
-        d: ${{steps.cols.outputs.d}}
+        y: ${{steps.vals.outputs.y}}
+        m: ${{steps.vals.outputs.m}}
+        d: ${{steps.vals.outputs.d}}
     steps: 
-      - id: cols
+      - id: vals
         run: |
           echo "y=$(date +'%Y')" >> "$GITHUB_OUTPUT"
           echo "m=$(date +'%m')" >> "$GITHUB_OUTPUT"
@@ -29,7 +29,7 @@ jobs:
         run: |
           repo="https://${{ github.actor }}:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}"
           link="https://${{ vars.target }}/$y/$m/$y$m$d.yaml"
-          git clone $repo workspace .
+          git clone $repo .
           git remote set-url origin $repo
           git config --global user.email ${{ vars.useremail }}
           git config --global user.name ${{ vars.username }}

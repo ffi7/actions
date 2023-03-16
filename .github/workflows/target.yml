@@ -1,0 +1,41 @@
+name: FetchTarget
+on:
+  schedule:
+    - cron: "0 20 * * *"
+    
+  workflow_dispatch:
+  
+jobs: 
+  date:
+    runs-on: ubuntu-latest
+    outputs:
+        y: ${{steps.cols.outputs.y}}
+        m: ${{steps.cols.outputs.m}}
+        d: ${{steps.cols.outputs.d}}
+    steps: 
+      - id: cols
+        run: |
+          echo "y=$(date +'%Y')" >> "$GITHUB_OUTPUT"
+          echo "m=$(date +'%m')" >> "$GITHUB_OUTPUT"
+          echo "d=$(date +'%d')" >> "$GITHUB_OUTPUT"
+  clash:
+    runs-on: ubuntu-latest
+    needs: date
+    steps:
+      - env:
+          y: ${{needs.date.outputs.y}}
+          m: ${{needs.date.outputs.m}}
+          d: ${{needs.date.outputs.d}}
+        run: |
+          repo="https://${{ github.actor }}:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}"
+          link="https://${{ env.target }}/$y/$m/$y$m$d.yaml"
+          git clone $repo workspace .
+          git remote set-url origin $repo
+          git config --global user.email ${{ env.useremail }}
+          git config --global user.name ${{ env.username }}
+          mv day.yaml days.yaml
+          mv dayx.yaml day.yaml
+          wget $link -O dayx.yaml
+          git add .
+          git commit -m "$y $m $d"
+          git push 

@@ -2,7 +2,9 @@
 
 > 自动化脚本
 
-> Plan ↻: 自动更新订阅文件
+> Plan A: 自动更新订阅文件
+
+> Plan B: Visual Studio Code 使用 Visual Studio 编译套件
 
 ## Plan X
 
@@ -59,6 +61,18 @@
 
   chmod +x script.sh
   git update-index --chmod=+x script.sh
+
+```
+
+> 引用 VsDevCmd 启动 Visual Code
+
+```Bat
+
+@echo off
+chcp 65001 > nul
+call  "D:\Program Files\Microsoft\Visual Studio\Community\Common7\Tools\VsDevCmd.bat"
+start "" code
+exit /B 0
 
 ```
 

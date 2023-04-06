@@ -49,7 +49,7 @@ Write-Output "脚本创建成功: $CodeDevCmd"
 
 $Desktop = $CrShell.SpecialFolders("Desktop")
 
-$Shortcut = $CrShell.CreateShortcut("$Desktop\Visual Studio Code.lnk")
+$Shortcut = $CrShell.CreateShortcut("$Desktop\Visual Studio Code CL.lnk")
 $Shortcut.WorkingDirectory = $VsCode.WorkingDirectory
 $Shortcut.IconLocation = $VsCode.TargetPath
 $Shortcut.TargetPath = $CodeDevCmd

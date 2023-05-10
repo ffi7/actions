@@ -25,7 +25,6 @@ proxies:
   - {name: 🇫🇷 _FR_法国->🇬🇧_GB_英国, server: 51.195.35.149, port: 30812, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, tfo: false, skip-cert-verify: false}
   - {name: 🇺🇸 _US_美国 4, server: 140.99.149.43, port: 53082, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, tfo: false, skip-cert-verify: false}
   - {name: 🇺🇸 _US_美国 5, server: cf.yxjnode.com, port: 80, client-fingerprint: chrome, type: vmess, uuid: 09c1d32d-4458-4ebf-b36d-4dd732bae3aa, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /yxzbp, headers: {Host: dp1.yxjnode.com}}}
-  - {name: 🇸🇬 _SG_新加坡 3, server: 139.162.59.135, port: 443, client-fingerprint: chrome, type: ss, cipher: aes-128-gcm, password: tg@herhero6, tfo: false, plugin: v2ray-plugin, plugin-opts: {mode: "", host: "", path: "", tls: false, mux: false, skip-cert-verify: false}}
   - {name: 🇮🇳 _IN_印度, server: 152.70.74.66, port: 443, client-fingerprint: chrome, type: trojan, password: d906afe5-7c3c-4ddc-aaa4-61c154a82e5e, tfo: false, skip-cert-verify: false}
   - {name: 🇸🇬 _SG_新加坡 4, server: 66.42.50.66, port: 80, client-fingerprint: chrome, type: trojan, password: 86523a68-b346-413c-ab61-85af7e36c3db, tfo: false, skip-cert-verify: false}
   - {name: 🇯🇵 _JP_日本 2, server: aws-jp.aikun.online, port: 443, client-fingerprint: chrome, type: trojan, password: 1d636482-5f7b-41d3-ac42-241c00935fbb, tfo: false, sni: aws-jp.aikun.online, skip-cert-verify: false}
@@ -73,7 +72,6 @@ proxy-groups:
       - 🇫🇷 _FR_法国->🇬🇧_GB_英国
       - 🇺🇸 _US_美国 4
       - 🇺🇸 _US_美国 5
-      - 🇸🇬 _SG_新加坡 3
       - 🇮🇳 _IN_印度
       - 🇸🇬 _SG_新加坡 4
       - 🇯🇵 _JP_日本 2
@@ -131,7 +129,6 @@ proxy-groups:
       - 🇫🇷 _FR_法国->🇬🇧_GB_英国
       - 🇺🇸 _US_美国 4
       - 🇺🇸 _US_美国 5
-      - 🇸🇬 _SG_新加坡 3
       - 🇮🇳 _IN_印度
       - 🇸🇬 _SG_新加坡 4
       - 🇯🇵 _JP_日本 2

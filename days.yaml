@@ -40,6 +40,7 @@ proxies:
   - {name: 🇺🇸 _US_美国->🇳🇱_NL_荷兰, server: ams1.looooooongnet.lol, port: 443, client-fingerprint: chrome, type: vmess, uuid: 50087501-50f9-4fbf-b4e2-e964f9f86e85, alterId: 0, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: ams1.looooooongnet.lol}}}
   - {name: 🇺🇸 _US_美国 14, server: 216.52.183.242, port: 80, client-fingerprint: chrome, type: ss, cipher: aes-128-gcm, password: 83XvX4Vo%*3a, tfo: false}
   - {name: 🇺🇸 _US_美国 15, server: 45.86.11.229, port: 39182, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, tfo: false, skip-cert-verify: false}
+  - {name: _CN_中国, server: 36.134.16.171, port: 11023, client-fingerprint: chrome, type: vmess, uuid: 8c042a38-71c1-1dcb-00df-54880236e0dc, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false}
   - {name: 🇺🇸 _US_美国 16, server: 108.186.116.174, port: 55005, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, tfo: false, skip-cert-verify: false}
   - {name: 🇹🇼 _TW_台湾, server: fn600mlines020.svcline.com, port: 995, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: c35ab0e35b36, tfo: false, plugin: v2ray-plugin, plugin-opts: {mode: "", host: "", path: "", tls: false, mux: false, skip-cert-verify: false}}
   - {name: 🇸🇬 _SG_新加坡 3, server: 139.162.59.135, port: 443, client-fingerprint: chrome, type: ss, cipher: aes-128-gcm, password: tg@herhero6, tfo: false, plugin: v2ray-plugin, plugin-opts: {mode: "", host: "", path: "", tls: false, mux: false, skip-cert-verify: false}}
@@ -61,6 +62,7 @@ proxies:
   - {name: 🇺🇸 _US_美国 23, server: 38.40.219.180, port: 53362, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, tfo: false, skip-cert-verify: false}
   - {name: 🇺🇸 _US_美国 24, server: cf.yxjnode.com, port: 80, client-fingerprint: chrome, type: vmess, uuid: 09c1d32d-4458-4ebf-b36d-4dd732bae3aa, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /yxzbp, headers: {Host: dp1.yxjnode.com}}}
   - {name: 🇺🇸 _US_美国 25, server: mg006.026.pw, port: 8443, client-fingerprint: chrome, type: vmess, uuid: ee8a9197-8d2f-44e8-a821-f741281a3867, alterId: 0, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: mg006.026.pw}}}
+  - {name: _CN_中国 2, server: 36.134.16.190, port: 11023, client-fingerprint: chrome, type: vmess, uuid: 8c042a38-71c1-1dcb-00df-54880236e0dc, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false}
   - {name: 🇫🇮 _FI_芬兰, server: 37.143.129.230, port: 989, client-fingerprint: chrome, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, tfo: false}
   - {name: 🇺🇸 _US_美国 26, server: 38.40.158.246, port: 45002, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, tfo: false, skip-cert-verify: false}
 proxy-groups:
@@ -93,6 +95,7 @@ proxy-groups:
       - 🇺🇸 _US_美国->🇳🇱_NL_荷兰
       - 🇺🇸 _US_美国 14
       - 🇺🇸 _US_美国 15
+      - _CN_中国
       - 🇺🇸 _US_美国 16
       - 🇹🇼 _TW_台湾
       - 🇸🇬 _SG_新加坡 3
@@ -114,6 +117,7 @@ proxy-groups:
       - 🇺🇸 _US_美国 23
       - 🇺🇸 _US_美国 24
       - 🇺🇸 _US_美国 25
+      - _CN_中国 2
       - 🇫🇮 _FI_芬兰
       - 🇺🇸 _US_美国 26
   - name: 🎯 全球直连
@@ -156,6 +160,7 @@ proxy-groups:
       - 🇺🇸 _US_美国->🇳🇱_NL_荷兰
       - 🇺🇸 _US_美国 14
       - 🇺🇸 _US_美国 15
+      - _CN_中国
       - 🇺🇸 _US_美国 16
       - 🇹🇼 _TW_台湾
       - 🇸🇬 _SG_新加坡 3
@@ -177,6 +182,7 @@ proxy-groups:
       - 🇺🇸 _US_美国 23
       - 🇺🇸 _US_美国 24
       - 🇺🇸 _US_美国 25
+      - _CN_中国 2
       - 🇫🇮 _FI_芬兰
       - 🇺🇸 _US_美国 26
 rules:

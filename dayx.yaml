@@ -56,7 +56,6 @@ proxies:
   - {name: 🇩🇪 _DE_德国 2, server: 217.79.181.82, port: 443, client-fingerprint: chrome, type: trojan, password: b3359b2b-cb0f-44cd-a152-a796d8b46b01, tfo: false, sni: download.xn--mes358acgm99l.com, skip-cert-verify: false}
   - {name: 🇸🇬 _SG_新加坡 4, server: 13.214.27.15, port: 443, client-fingerprint: chrome, type: trojan, password: ca7febc2-bb45-4e6d-810e-ab0af6009c4e, tfo: false, skip-cert-verify: false}
   - {name: 🇯🇵 _JP_日本 4, server: 13.230.221.122, port: 443, client-fingerprint: chrome, type: ss, cipher: aes-256-cfb, password: amazonskr05, tfo: false}
-  - {name: 🇺🇸 _US_美国 11, server: first.baoshi750105.top, port: 443, client-fingerprint: chrome, type: vless, uuid: d65eb109-efe6-4941-b726-674fe55f22ae, tls: true, tfo: false, servername: first.baoshi750105.top, skip-cert-verify: false, network: ws, ws-opts: {path: /caoyu1932, headers: {Host: first.baoshi750105.top}}}
   - {name: 🇯🇵 _JP_日本 5, server: 43.207.109.56, port: 443, client-fingerprint: chrome, type: ss, cipher: aes-256-cfb, password: amazonskr05, tfo: false}
   - {name: 🇦🇹 _FR_法国->🇦🇹_AT_奥地利, server: 54.36.115.241, port: 989, client-fingerprint: chrome, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, tfo: false}
   - {name: 🇺🇸 _US_美国 12, server: 140.99.59.228, port: 55512, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, tfo: false, skip-cert-verify: false}
@@ -108,7 +107,6 @@ proxy-groups:
       - 🇩🇪 _DE_德国 2
       - 🇸🇬 _SG_新加坡 4
       - 🇯🇵 _JP_日本 4
-      - 🇺🇸 _US_美国 11
       - 🇯🇵 _JP_日本 5
       - 🇦🇹 _FR_法国->🇦🇹_AT_奥地利
       - 🇺🇸 _US_美国 12
@@ -170,7 +168,6 @@ proxy-groups:
       - 🇩🇪 _DE_德国 2
       - 🇸🇬 _SG_新加坡 4
       - 🇯🇵 _JP_日本 4
-      - 🇺🇸 _US_美国 11
       - 🇯🇵 _JP_日本 5
       - 🇦🇹 _FR_法国->🇦🇹_AT_奥地利
       - 🇺🇸 _US_美国 12

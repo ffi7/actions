@@ -22,7 +22,6 @@ proxies:
   - {name: 🇭🇰 _HK_香港, server: awshk5-tg-data.amazonwebservicess.com, port: 443, client-fingerprint: chrome, type: trojan, password: ca7febc2-bb45-4e6d-810e-ab0af6009c4e, tfo: false, skip-cert-verify: false}
   - {name: 🇭🇰 _HK_香港 2, server: awshk4-tg-data.amazonwebservicess.com, port: 443, client-fingerprint: chrome, type: trojan, password: ca7febc2-bb45-4e6d-810e-ab0af6009c4e, tfo: false, skip-cert-verify: false}
   - {name: 🇯🇵 _JP_日本, server: 43.207.199.196, port: 443, client-fingerprint: chrome, type: ss, cipher: aes-256-cfb, password: amazonskr05, tfo: false}
-  - {name: 🇹🇼 _TW_台湾 2, server: fn300mtw024.feichuanjs.net, port: 443, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: 1040d22a6f47, tfo: false, plugin: v2ray-plugin, plugin-opts: {mode: "", host: "", path: "", tls: false, mux: false, skip-cert-verify: false}}
   - {name: 🇯🇵 _JP_日本->🇩🇪_DE_德国, server: fscde.fscloud123456789.com, port: 443, client-fingerprint: chrome, type: trojan, password: 1f1c4c0b-c77d-4d60-91b3-a6cb5d09a56c, tfo: false, skip-cert-verify: false}
   - {name: 🇺🇸 _US_美国 3, server: cf-lt.sharecentre.online, port: 80, client-fingerprint: chrome, type: vmess, uuid: 2d5d8b9c-8ec4-4a37-b610-78e71e13eaef, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /shirker, headers: {Host: ca.ilovescp.com}}}
   - {name: 🇩🇪 _DE_德国, server: sahnama.com, port: 443, client-fingerprint: chrome, type: trojan, password: df68f678-62c3-4799-91a8-4d301e8cf565, tfo: false, sni: sahnama.com, skip-cert-verify: false}
@@ -75,7 +74,6 @@ proxy-groups:
       - 🇭🇰 _HK_香港
       - 🇭🇰 _HK_香港 2
       - 🇯🇵 _JP_日本
-      - 🇹🇼 _TW_台湾 2
       - 🇯🇵 _JP_日本->🇩🇪_DE_德国
       - 🇺🇸 _US_美国 3
       - 🇩🇪 _DE_德国
@@ -138,7 +136,6 @@ proxy-groups:
       - 🇭🇰 _HK_香港
       - 🇭🇰 _HK_香港 2
       - 🇯🇵 _JP_日本
-      - 🇹🇼 _TW_台湾 2
       - 🇯🇵 _JP_日本->🇩🇪_DE_德国
       - 🇺🇸 _US_美国 3
       - 🇩🇪 _DE_德国

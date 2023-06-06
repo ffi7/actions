@@ -35,7 +35,6 @@ proxies:
   - {name: 🇺🇸 _IL_以色列->🇺🇸_US_美国 2, server: us3.chuqiangtou.net, port: 4003, client-fingerprint: chrome, type: trojan, password: TJCfE7Mx2YcA8kX8zg, tfo: false, skip-cert-verify: false}
   - {name: 🇸🇬 _US_美国->🇸🇬_SG_新加坡, server: www.noice.id, port: 443, client-fingerprint: chrome, type: vmess, uuid: 37776019-07ea-4a1d-94e7-88e5e133ad5a, alterId: 0, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /worryfree, headers: {Host: v2ray1.udpgw.com}}}
   - {name: 🇧🇷 _BR_巴西->🇬🇧_GB_英国, server: freenodecdn.ikuan.dev, port: 2052, client-fingerprint: chrome, type: vmess, uuid: 3185c2f3-4246-49c4-ba8a-5ea8fb2ef6b8, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /FreeForGFW, headers: {Host: freeforgfw.ikuan.dev}}}
-  - {name: 🇺🇸 _US_美国->🇳🇱_NL_荷兰, server: ashcan.aurorainiceland.com, port: 443, client-fingerprint: chrome, type: vless, uuid: 9c9f7230-c8ff-44d2-93f2-a1febbc23767, tls: true, tfo: false, servername: ashcan.aurorainiceland.com, skip-cert-verify: false, network: ws, ws-opts: {path: /nimws, headers: {Host: ashcan.aurorainiceland.com}}}
   - {name: 🇮🇳 _IN_印度, server: 152.70.74.66, port: 443, client-fingerprint: chrome, type: trojan, password: d906afe5-7c3c-4ddc-aaa4-61c154a82e5e, tfo: false, skip-cert-verify: false}
   - {name: 🇺🇸 _US_美国 9, server: 198.2.203.148, port: 50002, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, tfo: false, skip-cert-verify: false}
   - {name: _CN_中国, server: 36.139.166.252, port: 11023, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: ll668668@, tfo: false}
@@ -90,7 +89,6 @@ proxy-groups:
       - 🇺🇸 _IL_以色列->🇺🇸_US_美国 2
       - 🇸🇬 _US_美国->🇸🇬_SG_新加坡
       - 🇧🇷 _BR_巴西->🇬🇧_GB_英国
-      - 🇺🇸 _US_美国->🇳🇱_NL_荷兰
       - 🇮🇳 _IN_印度
       - 🇺🇸 _US_美国 9
       - _CN_中国
@@ -155,7 +153,6 @@ proxy-groups:
       - 🇺🇸 _IL_以色列->🇺🇸_US_美国 2
       - 🇸🇬 _US_美国->🇸🇬_SG_新加坡
       - 🇧🇷 _BR_巴西->🇬🇧_GB_英国
-      - 🇺🇸 _US_美国->🇳🇱_NL_荷兰
       - 🇮🇳 _IN_印度
       - 🇺🇸 _US_美国 9
       - _CN_中国

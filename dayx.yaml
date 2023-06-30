@@ -64,7 +64,7 @@ proxies:
   - {name: 🇺🇸 _US_美国 31, server: 137.175.41.203, port: 50004, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, tfo: false, skip-cert-verify: false}
   - {name: 🇺🇸 _US_美国 32, server: 38.63.0.78, port: 47002, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, tfo: false, skip-cert-verify: false}
   - {name: 🇸🇬 _US_美国->🇸🇬_SG_新加坡, server: 108.162.192.79, port: 2095, client-fingerprint: chrome, type: vmess, uuid: b710770a-fdaf-41fb-bbe4-68a6c41e2605, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /blue, headers: {Host: xt.ylks01.eu.org}}}
-  - {name: 🇹🇼 _TW_台湾, server: 103.177.33.180, port: 443, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: 9e44e9ffe5c2, tfo: false, plugin: v2ray-plugin, plugin-opts: {mode: "", host: "", path: "", tls: false, mux: false, skip-cert-verify: false}}
+  - {name: 🇹🇼 _TW_台湾, server: 103.177.33.180, port: 443, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: 9e44e9ffe5c2, tfo: false}
 proxy-groups:
   - name: 🚀 节点选择
     type: select

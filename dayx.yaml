@@ -43,7 +43,6 @@ proxies:
   - {name: 🇺🇸 _NL_荷兰->🇺🇸_US_美国, server: 188.114.96.240, port: 80, client-fingerprint: chrome, type: vmess, uuid: 54286653-5bfa-436c-ad68-1eff4eabb10a, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /qwer, headers: {Host: uxx.vtcss.top}}}
   - {name: 🇺🇸 _US_美国 14, server: 137.175.57.8, port: 50040, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, tfo: false, skip-cert-verify: false}
   - {name: 🇺🇸 _US_美国 15, server: 137.175.1.12, port: 53403, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, tfo: false, skip-cert-verify: false}
-  - {name: 🇹🇼 _TW_台湾, server: 103.177.33.180, port: 443, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: 9e44e9ffe5c2, tfo: false}
   - {name: 🇺🇸 _US_美国 16, server: 104.24.16.29, port: 80, client-fingerprint: chrome, type: vmess, uuid: 9572d691-e27a-4f54-ef4d-57600a785b55, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /qwer00, headers: {Host: txx.vtcss.top}}}
   - {name: 🇺🇸 _US_美国 17, server: 198.2.203.54, port: 44672, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, tfo: false, skip-cert-verify: false}
   - {name: 🇺🇸 _US_美国 18, server: 38.63.0.80, port: 47002, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, tfo: false, skip-cert-verify: false}
@@ -98,7 +97,6 @@ proxy-groups:
       - 🇺🇸 _NL_荷兰->🇺🇸_US_美国
       - 🇺🇸 _US_美国 14
       - 🇺🇸 _US_美国 15
-      - 🇹🇼 _TW_台湾
       - 🇺🇸 _US_美国 16
       - 🇺🇸 _US_美国 17
       - 🇺🇸 _US_美国 18
@@ -163,7 +161,6 @@ proxy-groups:
       - 🇺🇸 _NL_荷兰->🇺🇸_US_美国
       - 🇺🇸 _US_美国 14
       - 🇺🇸 _US_美国 15
-      - 🇹🇼 _TW_台湾
       - 🇺🇸 _US_美国 16
       - 🇺🇸 _US_美国 17
       - 🇺🇸 _US_美国 18
